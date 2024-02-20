@@ -2,8 +2,9 @@
 header {
     font-family: "Merriweather", serif;
     font-weight: 300;
-    font-style: normal;
-    margin: 25px 100px;
+    font-style: normal; 
+    margin: 55px 100px;
+    height: 750px;
     background-size: 100% 100%;
     border-radius: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -11,21 +12,26 @@ header {
 }
 
 .text_header {
-    padding: 150px;
+    /* padding: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
 }
 
 .head_small {
     color: #fff;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     padding-bottom: 20px;
 }
 
 .head_large {
     color: #fff;
-    text-align: center;
-    font-size: 60px;
-    font-weight: 700;
+    text-align: center; 
+    font-size: 90px;
+    font-weight: 800;
     padding: 0px 50px;
 }
 
@@ -41,26 +47,27 @@ header {
 
 .s_one_1 {
     color: #ff0000;
-    font-size: 60px;
+    font-size: 100px; 
     font-weight: 700;
-    margin-top: 90px;
-    margin-bottom: 33px;
+    margin-top: 130px; 
+    margin-bottom: 75px;
 }
 
 .s_one_2 {
     color: #ff0000;
-    font-size: 16px;
+    font-size: 26px; 
+    font-weight: 700;
 }
 
 .s_one_3 {
-    font-weight: 700;
-    font-size: 32px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    font-weight: 700; 
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px; 
 }
 
 .s_one_4 {
-    margin-bottom: 60px;
+    margin-bottom: 160px;
 }
 
 /* Main | Section 2 */
@@ -68,13 +75,21 @@ header {
     background-size: 100% 100%;
     border-radius: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../resources/Vectorrr.png");
-    padding: 100px;
+
     color: #fff;
     margin: 25px 100px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 750px;
 }
-
+.s_two_txt_img{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 .s_two_text_1 {
     font-family: "Merriweather", serif;
     font-size: 90px;
@@ -86,13 +101,13 @@ header {
     font-family: "Inter", sans-serif;
     font-weight: 300;
     max-width: 700px;
-    padding: 25px 0px;
+
 }
 
 .s_two_b {
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    font-size: large;
+    font-size: x-large;
     color: #fff;
     background-color: transparent;
     border: 0px;
@@ -102,8 +117,8 @@ header {
 /* Main | Section 3 */
 .s_three {
     font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: xx-large;
+    font-weight: 700; 
+    font-size: 40px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -111,10 +126,8 @@ header {
     margin: 80px 100px;
     border-radius: 15px;
     padding: 20px;
-    /* background-color: rgba(255, 0, 0,0.1); */
-    /* color: rgb(255, 233, 235); */
     background: linear-gradient(0deg, rgba(255, 255, 255, 5) 0%, rgba(255, 64, 0, 0.141) 50%);
-    height: 500px;
+    height: 650px;
 
 }
 
@@ -131,7 +144,7 @@ header {
     color: #fff;
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     background-color: #ff0000;
     border: 0;
     border-radius: 5px;
@@ -146,56 +159,53 @@ header {
     align-items: center;
     justify-content: space-around;
     margin: 80px 100px;
-    height: 400px;
-    gap: 20px
+    height: 550px;
 }
 
+.s_four_1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.s_four_3{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 .s_four_1_txt_1 {
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    font-size: x-large;
+    font-size: xx-large;
     color: #ff0000;
 }
 
 .s_four_1_txt_2 {
     font-family: "Merriweather", serif;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 60px;
     color: black;
 }
 
 .s_four_2_img {
-    width: 290px;
+    width: 400px;
     padding: 30px;
     border-radius: 50%;
-    border: 8px solid #ff0000;
+    border: 16px solid #ff0000;
 }
 
 .s_four_1_txt_3,
 .s_four_3_txt_2 {
     color: rgba(7, 2, 17, 0.6);
+    font-size: x-large;
 }
 
 .s_four_3_txt_1 {
     color: #ff0000;
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    font-size: 50px;
-
-}
-
-.s_four_1_txt_1,
-.s_four_1_txt_2,
-.s_four_1_txt_3 {
-    max-width: 350px;
-    padding-bottom: 20px;
-}
-
-.s_four_3_txt_1,
-.s_four_3_txt_2,
-.s_four_3_txt_3 {
-    max-width: 350px;
-    padding-bottom: 30px;
+    font-size: 70px;
 }
 
 /* Main | Section 5 */
@@ -212,62 +222,62 @@ header {
 
 .s_5_img{
     position: relative;
-    height: 700px;
+    height: 1400px;
     margin: 80px 100px;
-}
+} 
 
 .s_5_img_1{
     /* Gift Box */
     position:absolute;
-    top: 200px;
-    bottom: 60px; 
-    left: 300px;
+    bottom: 80px; 
+    left: 500px;
     z-index: 1;
 }
 .s_5_img_2{
     /* Discount */
     position: absolute;
     /* width: 10px; */
-    top: 60px;
-    right: 60px;
-    left: 850px;
+    top: 200px;
+    right: 760px;
     z-index: 1;
 }
 .s_5_img_3 {
     /* Girl */
     position: absolute;
-    right: 100px;
-    top: 20px;    
+    right: 0px;
+    top: 0px;    
 }
 .s_5_img_4{
     /* Rectangle */
     position: absolute;
     right: 1px;
-    bottom: 10px;
+    bottom: 0px;
     left: 90px;
 }
 
 
 .s_5_txt{
-    text-align: center;
-    width: 750px;
-    margin: auto;
-}
-.s_5_txt>div{
-    padding-top: 10px ;
+    /* text-align: center; */
+    /* width: 1000px; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 .s_5_txt_1 {
     font-family: "Inter", sans-serif;
     color: black;
-    font-weight: 500;
-    font-size: larger;
+    font-weight: 600;
+    font-size: xx-large ;
 }
 
 .s_5_txt_2 {
     font-family: "Merriweather", serif;
     color: #070211;
     font-weight: 800;
-    font-size: 60px;
+    font-size: 100px;
 }
 .s_5_txt_2>span{
 color: #ff0000;
@@ -275,6 +285,9 @@ color: #ff0000;
 .s_5_txt_3 {
     font-family: "Inter", sans-serif;
     color: rgba(7, 2, 17, .6);
+    font-size: x-large;
+    text-align: center;
+    width: 1200px;
 }
 
 
@@ -308,12 +321,11 @@ color: #ff0000;
 .s_6_img_list{
   /* display: flex; */
 }
-.s_6_img{
-width: 500px;
-}
+
 .s_6 img {
     transition: transform 0.3s ease-in-out;
-    margin: 10px;
+    margin: 20px;
+    width: 30%;
 }
 
 .s_6 img:hover {
@@ -337,33 +349,40 @@ width: 500px;
     font-family: "Merriweather", serif;
     color: #070211;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 60px;
     padding: 30px 0px;
 }
 
 .s_7_2 {
     color: rgba(7, 2, 17, 0.6);
     font-family: "Inter", sans-serif;
-    padding-bottom: 30px;
+    padding-bottom: 40px; 
     margin: auto;
-    max-width: 530px;
+    max-width: 850px;
+    font-size: x-large;
 }
 
 #email {
     border: 0px;
-    padding: 20px 100px 20px 20px;
+    padding: 20px 100px 20px 30px;
     border-radius: 25px 0px 0px 25px;
     margin: 0px;
+    font-size: x-large; 
+}
+#email::placeholder{
+    color:#070211; 
+    opacity: .2; 
 }
 
 #submit {
     border: 0px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 30px 20px 30px; 
     border-radius: 0px 25px 25px 0px;
     background-color: #ff0000;
     color: #fff;
     font-weight: 700;
     margin-left: -5px;
+    font-size: x-large;
 }
 
 .s_7_3 {
@@ -377,7 +396,9 @@ footer {
     color: #fff;
     font-family: "Inter", sans-serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
+    padding: 100px ;
+    height: 500px;
 }
 
 footer hr {
@@ -394,13 +415,13 @@ footer hr {
 .extra_text {
     padding-bottom: 10px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .footer_section_2 {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     padding: 35px 0px;
 }
 
