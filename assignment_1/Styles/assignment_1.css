@@ -220,38 +220,43 @@ header {
 
 } */
 
-.s_5_img{
+.s_5_img {
     position: relative;
-    height: 1400px;
+    height: 700px;
     margin: 80px 100px;
-} 
+}
 
-.s_5_img_1{
+.s_5_img_1 {
     /* Gift Box */
-    position:absolute;
-    bottom: 80px; 
-    left: 500px;
+    position: absolute;
+    top: 200px;
+    bottom: 60px;
+    left: 300px;
     z-index: 1;
 }
-.s_5_img_2{
+
+.s_5_img_2 {
     /* Discount */
     position: absolute;
     /* width: 10px; */
-    top: 200px;
-    right: 760px;
+    top: 60px;
+    right: 60px;
+    left: 850px;
     z-index: 1;
 }
+
 .s_5_img_3 {
     /* Girl */
     position: absolute;
-    right: 0px;
-    top: 0px;    
+    right: 100px;
+    top: 20px;
 }
-.s_5_img_4{
+
+.s_5_img_4 {
     /* Rectangle */
     position: absolute;
     right: 1px;
-    bottom: 0px;
+    bottom: 10px;
     left: 90px;
 }
 
